@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#container-chat {
+  background-color: #f0ebe5;
+  min-height: 100vh;
+  max-width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  justify-content: center;
+  display: flex;
+}
+.container {
+  background-color: #f0ebe5;
+  min-height: 100vh;
+  max-width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  justify-content: center;
+  display: flex;
+}
+.card {
+  padding: 0;
+  margin: 1rem;
+}
+.header-bar {
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #f0ebe5;
+}
+
+.bottom-bar {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  bottom: 0;
+}
+
+#message-box {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 100%;
+  border-radius: 5%;
+  height: 80vh;
+}
+.message-chat {
+  width: 90%;
+}
+.send-icon {
+  transform: rotate(180deg);
+}
+.messages {
+  height: 90%;
+}
+.message {
+  padding: 1rem;
+  margin: 1rem;
+  min-height: 1rem;
+  max-height: auto;
+  max-width: 10rem;
+}
+
+#text-field {
+}
